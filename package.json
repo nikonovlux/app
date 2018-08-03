@@ -20,8 +20,13 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "adal-angular": "^1.0.17",
+    "angular-in-memory-web-api": "^0.6.1",
     "core-js": "^2.5.4",
+    "gulp": "^3.9.1",
     "rxjs": "^6.0.0",
+    "save-dev": "^2.0.0",
+    "sharepoint-rest": "^2.3.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

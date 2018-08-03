@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div hidden>
+<!-- <div hidden>
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -20,3 +20,18 @@
 </ul>
 </div>
 <h1>{{title}}</h1>
+<app-heroes></app-heroes> -->
+
+<!-- ><h1>{{title}}</h1> -->
+
+<h1>{{title}}</h1>
+
+<nav>
+  <p><a routerLink="/dashboard">Dashboard</a></p><p><a routerLink="/heroes">Workers</a></p><p><a routerLink="/sprest">SpRest</a></p>
+</nav>
+
+<!-- <app-heroes></app-heroes>            remove from mainpage       -->
+
+<p><router-outlet></router-outlet></p>
+<p><app-messages></app-messages></p>
+
