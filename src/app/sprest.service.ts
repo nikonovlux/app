@@ -21,8 +21,6 @@ export class SprestService {
 
     var textToShow = this.http.get('https://interoko.sharepoint.com/sites/IT/_api/Web/GetUserById(15)/title').subscribe(console.log);
 
-
-
     return textToShow;
 
   }
